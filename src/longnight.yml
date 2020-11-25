@@ -6,10 +6,10 @@ semanticClass: theme.transylvania
 semanticHighlighting: true
 transylvania:
   base:
-    - &BG        '#22212C'
-    - &FG        '#F5F5F0'
-    - &SELECTION '#383352'
-    - &COMMENT   '#776EA5'
+    - &BG        '#2C2122'
+    - &FG        '#E6DAE0'
+    - &SELECTION '#4A3640'
+    - &COMMENT   '#AA717A'
     - &CYAN      '#82FFEC'
     - &GREEN     '#8AFD80'
     - &ORANGE    '#FBC87F'
@@ -18,14 +18,14 @@ transylvania:
     - &RED       '#FA7F7F'
     - &YELLOW    '#FFFF81'
   ansi:
-    - &COLOR0        '#22212C'
+    - &COLOR0        '#2C2122'
     - &COLOR1        '#FA7F7F'
     - &COLOR2        '#8AFD80'
     - &COLOR3        '#FFFF81'
     - &COLOR4        '#B382D9'
     - &COLOR5        '#FF82C3'
     - &COLOR6        '#82FFEC'
-    - &COLOR7        '#F5F5F0'
+    - &COLOR7        '#E6DAE0'
     - &COLOR8        '#6272A4'
     - &COLOR9        '#FF6E6E'
     - &COLOR10       '#2CDA9D'
@@ -33,21 +33,21 @@ transylvania:
     - &COLOR12       '#D6ACFF'
     - &COLOR13       '#F786AA'
     - &COLOR14       '#A4FFFF'
-    - &COLOR15       '#FFFFFF'
+    - &COLOR15       '#FFF2F9'
   brightOther:
     # Temporary (awaiting fix)
     - &TEMP_QUOTES          '#FFFF81'
     - &TEMP_PROPERTY_QUOTES '#82FFEC'
   other:
-    - &LineHighlight '#2B2839'
-    - &NonText       '#FFFFFF1A'
-    - &WHITE         '#F5F5F0'
-    - &TAB_DROP_BG   '#44475A70'
+    - &LineHighlight '#39282B'
+    - &NonText       '#2E2228'
+    - &WHITE         '#FFF2F9'
+    - &TAB_DROP_BG   '#2C2122'
     # UI Variants
-    - &BGLighter     '#312C4B'
-    - &BGLight       '#2B283A'
-    - &BGDark        '#151320'
-    - &BGDarker      '#0B0A10'
+    - &BGLighter     '#382A31'
+    - &BGLight       '#2E2228'
+    - &BGDark        '#1F171B'
+    - &BGDarker      '#1A1316'
 
 # User Interface (more info: https://code.visualstudio.com/docs/getstarted/theme-color-reference)
 colors:

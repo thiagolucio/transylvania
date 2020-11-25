@@ -1,9 +1,9 @@
 {
   "name": "transylvania",
-  "version": "1.0.3",
+  "version": "1.5.1",
   "displayName": "Transylvania",
   "homepage": "http://matheusps.github.io/transylvania",
-  "description": "Dark theme based on Dracula",
+  "description": "Darker dracula-based vscode themes",
   "publisher": "matheusps",
   "license": "MIT",
   "scripts": {
@@ -32,7 +32,10 @@
   ],
   "keywords": [
     "transylvania",
-    "theme"
+    "theme",
+    "dracula",
+    "color-theme",
+    "dark-theme"
   ],
   "icon": "icon.png",
   "galleryBanner": {
@@ -45,6 +48,11 @@
         "label": "Transylvania",
         "uiTheme": "vs-dark",
         "path": "./theme/transylvania.json"
+      },
+      {
+        "label": "Transylvania Long Night [BETA]",
+        "uiTheme": "vs-dark",
+        "path": "./theme/longnight.json"
       }
     ]
   },
